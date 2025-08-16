@@ -1,0 +1,49 @@
+{{!-- This is the base layout for your project, and will be used on every page
+unless specified. --}}
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JA build</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{root}}assets/img/favicon.png" />
+    <link rel="stylesheet" href="{{root}}assets/css/app.css" />
+    <link rel="stylesheet" href="{{root}}assets/foundation-icons/foundation-icons.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-y medium-grid-frame">
+            <div class="cell medium-auto medium-cell-block-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell medium-3 medium-cell-block-y">{{>menu}}</div>
+                    <div class="cell medium-9 medium-cell-block-y">
+                        <div class="grid-x grid-padding-x">
+                            <div class="cell medium-12 large-9">{{> body}}</div>
+                            <div class="cell medium-12 large-3">
+                                {{#ifpage 'kozepiskolai_partneri_program'}}
+                                {{>right_col_menu_kkp}}
+                                {{/ifpage}}
+
+                                {{#ifpage 'osztondijak'}}
+                                {{>right_col_menu_osztondijak}}
+                                {{/ifpage}}
+
+                                {{#ifpage 'versenyek'}}
+                                {{>right_col_menu_versenyek}}
+                                {{/ifpage}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{>footer}}
+        </div>
+    </div>
+    <script src="{{root}}assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+<h4>Hírek</h4>
+<!-- A DeepSeek helpernek paraméterként adható át, hogy a hírekből
+az első hány darab jelenjen meg. -->
+{{#iterate2 global.news.huszonnegy 3}}
+<div class="card">
+    <div class="card-divider">
+        <p>{{title}}</p>
+    </div>
+    <img src="{{coverimg}}">
+    <div class="card-section">
+        <p>{{content}}</p>
+    </div>
+</div>
+{{/iterate2}}

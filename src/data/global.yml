@@ -1,0 +1,461 @@
+fooldalgallery:
+  "2024_25":
+    ps:
+      - title: hatartalanul_2024_ps
+        url: Határtalanul
+        date: "2024. június 11–15."
+
+gallery:
+  "2024_25":
+  ps:
+  hatartalanul:
+    - title: hatartalanul_2024_ps
+      num: "01"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "02"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "03"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "04"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "05"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "06"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "07"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "08"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "09"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "10"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "11"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "12"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "13"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "14"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "15"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "16"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "17"
+      width: "1200"
+      height: "900"
+    - title: hatartalanul_2024_ps
+      num: "18"
+      width: "1200"
+      height: "900"
+    
+      magellan:
+        osztondijak:
+        - title: START-Ösztöndíj
+          content: start
+        - title: Javíts! ösztöndíj
+          content: javits
+        - title: Zirzen Janka ösztöndíj
+          content: zirzen
+        - title: TALENT – A Kiválósági lista
+          content: talent
+        - title: Vállalati ösztöndíjak
+          content: vallalati
+        - title: Top élelmiszermérnök
+          content: elelmiszermernok
+        - title: SZTE Junior Akadémia Mentor Díj
+          content: mentor
+        - title: Esélyt a középiskolás tehetségnek
+          content: eselyt
+        - title: Altajisztika ösztöndíj
+          content: altajisztika
+        kkp:
+        - title: A programról
+          content: programrol
+        - title: Középiskolás Tehetségek Mentora ösztöndíj
+          content: ktm_osztondij
+        - title: Partneriskolák
+          content: partneriskolak
+        - title: SZTE Juniorok Viadala
+          content: szte_juniorok_viadala
+        - title: Javíts! ösztöndíj
+          content: javits_osztondij
+        versenyek:
+        - title: Bathory Istvan Középiskolai Történelem Tanulmányi Verseny
+          content: bath
+        - title: Both Ödön Kozjogtörténeti Emlékverseny
+          content: both
+        - title: Nobel-Hetek TikTok Videopályázat
+          content: nobel
+        - title: Prezentációs Technikák Verseny
+          content: prez
+        - title: SZTE Junior Innovárotok Ötletverseny
+          content: innov
+        - title: SZTE Junior Sakkviadal
+          content: sakkviadal
+        - title: SZTE Juniorok Viadala
+          content: junviadal 
+
+magellan:
+  osztondijak:
+  - title: START Alap Ösztöndíj
+    content: A Szegedi Tudományegyetem START Program elsősorban a középiskolás diákok egyetemi beilleszkedését és későbbi szakmai fejlődését szolgálja.
+    coverimg: https://placehold.co/300x200?text=img_Start
+    btntext: Tovább a pályázatra
+    url: /osztondijak/start_alap_osztondij
+  - title: START Mester Ösztöndíj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Start
+    btntext: Tovább a pályázatra
+    url: /osztondijak/start_mester_osztondij
+  - title: START Plusz Ösztöndíj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Start
+    btntext: Tovább a pályázatra
+    url: /osztondijak/start_plusz_osztondij
+  - title: Javíts! ösztöndíj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Javíts!
+    btntext: Tovább a pályázatra
+    url: /osztondijak/javits_osztondij
+  - title: Zirzen Janka ösztöndíj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Zirzen
+    btntext: Tovább a pályázatra
+    url: /osztondijak/zirzen_janka_osztondij
+  - title: TALENT – A Kiválósági lista
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Talent
+    btntext: Tovább a pályázatra
+    url: /osztondijak/talent_osztondij
+  - title: Vállalati ösztöndíjak
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Vállalati
+    btntext: Tovább a pályázatra
+    url: /osztondijak/vvallalati_osztondijak
+  - title: Top élelmiszermérnök
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Élelmiszermérnök
+    btntext: Tovább a pályázatra
+    url: top_elelmiszermernok_osztondij
+  - title: SZTE Junior Akadémia Mentor Díj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_SZTE JA Mentordíj
+    btntext: Tovább a pályázatra
+    url: /osztondijak/szte_ja_mentor_dij
+  - title: Esélyt a középiskolás tehetségnek
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Esélyt a középisk..
+    btntext: Tovább a pályázatra
+    url: /osztondijak/eselyt_a_kozepiskolas_tehetsagnek
+  - title: Altajisztika ösztöndíj
+    content: Ezt szicában a bojtos görgő, a fanyásos pagzás telődte. Ezzel ugyan jó bélcet zagyartoltak el, de a bold drása cseréfli szulást tezsált.
+    coverimg: https://placehold.co/300x200?text=img_Altajisztika
+    btntext: Tovább a pályázatra
+    url: /osztondijak/altajisztika_osztondij
+
+  kkp:
+  - title: A programról
+    content: programrol
+  - title: Középiskolás Tehetségek Mentora ösztöndíj
+    content: ktm_osztondij
+  - title: Partneriskolák
+    content: partneriskolak
+  - title: SZTE Juniorok Viadala
+    content: szte_juniorok_viadala
+  - title: Javíts! ösztöndíj
+    content: javits_osztondij
+  versenyek:
+  - title: Bathory Istvan Középiskolai Történelem Tanulmányi Verseny
+    content: bath
+  - title: Both Ödön Kozjogtörténeti Emlékverseny
+    content: both
+  - title: Nobel-Hetek TikTok Videopályázat
+    content: nobel
+  - title: Prezentációs Technikák Verseny
+    content: prez
+  - title: SZTE Junior Innovárotok Ötletverseny
+    content: innov
+  - title: SZTE Junior Sakkviadal
+    content: sakkviadal
+  - title: SZTE Juniorok Viadala
+    content: junviadal 
+ 
+menu:
+  - title: Főoldal
+    page: index
+    url: index
+    icon:  home
+
+#Rólunk
+  - title: Rólunk
+    folder: rolunk
+    icon: torsos-all
+    menu: rolunk
+    submenu:
+      - title: Munkatársaink
+        page: 'munkatarsaink' 
+        url: rolunk/munkatarsaink
+      - title: Bemutatkozunk
+        page: 'bemutatkozunk'
+        url: rolunk/bemutatkozunk
+      - title: Szegedi Tehetséggondozó Tanács
+        page: 'szegedi_tehetseggondozo_tanacs'
+        url: rolunk/szegedi_tehetseggondozo_tanacs
+      - title: Idővonal
+        url: rolunk/idovonal
+        page: 'idovonal'
+      - title: Sajtómegjelenések
+        url: rolunk/sajtomegjelenesek
+        page: 'sajtomegjelenesek'
+      - title: Partnerek
+        url: rolunk/partnerek
+        page: 'partnerek'
+  
+ #Híreink
+  - title: Híreink
+    page: hireink
+    url: hireink
+    icon: megaphone
+
+ #Programok
+  - title: Programok
+    icon: calendar
+    menu: prog
+    submenu:
+      - title: Középiskolai Partneri Program
+        folder: programok
+        url: kozepiskolai_partneri_program
+        page: 'kozepiskolai_partneri_program'
+      - title: SZTE Junior Akademiai Előadások
+        folder: programok
+        url: szte_junior_akademiai_eloadasok
+        page: 'szte_junior_akademiai_eloadasok'
+      - title: Versenyek
+        folder: programok
+        url: versenyek
+        page: 'versenyek'
+      - title: Osztálykirándulások
+        folder: programok
+        url: osztalykirandulasok
+        page: 'osztalykirandulasok'
+      - title: Workshopok
+        folder: programok
+        url: workshopok
+        page: 'workshopok'
+      - title: Pályaorientációs tanácsadás
+        folder: programok
+        url: palyaorientacios_tanacsadas
+        page: 'palyaorientacios_tanacsadas'
+      - title: Pályázatok
+        folder: programok
+        url: palyazatok
+        page: 'palyazatok'
+        
+#Tanfolyamok
+  - title: Tanfolyamok
+    folder: tanfolyamok
+    icon: projection-screen
+    menu: tanf
+    submenu:
+      - title: Emelt szintű érettségi felkészítési tanfolyamok
+        folder: tanfolyamok
+        url: emelt_szintu_erettsegire_felkeszito_tanfolyamok 
+        page: 'emelt_szintu_erettsegire_felkeszito_tanfolyamok'
+      - title: Érettségi felkészítő tanfolyamok tanárai
+        folder: tanfolyamok
+        url: erettsegi_felkeszito_tanfolyamok_tanarai
+        page: 'erettsegi_felkeszito_tanfolyamok_tanarai'
+      - title: Tantermi érettségi felkészítő tanfolyamok órarendje
+        folder: tanfolyamok
+        url: tantermi_erettsegi_felkeszito_tanfolyamok_orarendje
+        page: 'tantermi_erettsegi_felkeszito_tanfolyamok_orarendje'
+      - title: Online érettségi felkészítő tanfolyamok órarendje
+        url: online_erettsegi_felkeszito_tanfolyamok_orarendje
+        page: 'online_erettsegi_felkeszito_tanfolyamok_orarendje'
+        folder: tanfolyamok
+      - title: Tanfolyamdíj visszatérítés
+        url: tanfolyamdij_visszaterites
+        folder: tanfolyamok
+        page: 'tanfolyamdij_visszaterites'
+        
+#Ösztöndíjak
+  - title: Ösztöndíjak
+    page: osztondijak
+    url: osztondijak
+    icon: credit-card
+
+#Felvételizőknek
+  - title: Felvételizőknek
+    folder: felvetelizoknek
+    icon: info
+    menu: felv
+    submenu:
+      - title: SZTE intézményi felvételi pontok
+        folder: felvetelizoknek
+        url: szte_intezmenyi_felveteli_pontok 
+        page: 'szte_intezmenyi_felveteli_pontok'
+
+#Galériák
+  - title: Galériák
+    folder: galeriak
+    icon: camera
+    menu: gal
+    submenu:
+      - title: Fotóalbumok
+        folder: galeriak
+        url: fotoalbumok 
+        page: 'fotoalbumok'
+      - title: Videók
+        folder: galeriak
+        url: videok 
+        page: 'videok'
+
+#Tanítsunk Magyarországért
+  - title: Tanítsunk Magyarországért
+    folder: tanitsunk_magyarorszagert
+    icon: heart
+    menu: tm
+    submenu:
+      - title: Tájékoztató
+        folder: tanitsunk_magyarorszagert
+        url: tajekoztato
+        page: 'tajekoztato'
+      - title: A programban résztvevő iskolák
+        folder: tanitsunk_magyarorszagert
+        url: a_programban_resztvevo_iskolak
+        page: 'a_programban_resztvevo_iskolak'
+      - title: Pályázat mentorálásra
+        folder: tanitsunk_magyarorszagert
+        url: palyazat_mentoralasra
+        page: 'palyazat_mentoralasra'
+      - title: TM partnerek
+        folder: tanitsunk_magyarorszagert
+        url: tm_partnerek
+        page: 'tm_partnerek'
+      - title: Gyakran ismételt kérdések
+        folder: tanitsunk_magyarorszagert
+        url: gyakran_ismetelt_kerdesek
+        page: 'gyakran_ismetelt_kerdesek'
+      - title: Etikai elvekek és adatvédelem
+        folder: tanitsunk_magyarorszagert
+        url: etikai_elvek_es_adatvedelem
+        page: 'etikai_elvek_es_adatvedelem'
+      - title: Kapcsolat TM
+        folder: tanitsunk_magyarorszagert
+        url: kapcsolat_tm
+        page: 'kapcsolat_tm'
+      - title: Tanítsunk Magyarországért honlap
+        folder: tanitsunk_magyarorszagert
+        url: tanitsunk_magyarorszagert_honlap
+        page: 'tanitsunk_magyarorszagert_honlap'
+
+#Kapcsolat
+  - title: Kapcsolat
+    page: kapcsolat
+    url: kapcsolat
+    icon: telephone
+ 
+news:
+  huszonot:
+    - title: Több mint 11 millió forint támogatásban részesültek az SZTE legtehetségesebb hallgatói a Talent díjátadón
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  ../assets/img/hirek/2024-25/talent-dijatado-2025/talent-dijatado-2025-cover.jpg
+      btntext: TOVÁBB
+      url: hirek-2024-25/talent_dijatado
+    - title: Bécsben is „randevúztak” a szegedi egyetemi gyakorlóiskola és a kisújszállási gimnázium diákjai
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg: https://placehold.co/130?text=hir2
+      btntext: TOVÁBB
+      url: hirek-2024-25/becsi_randevu
+    - title: Állatvédelmi előadáson jártak a baksi diákok a SZTE-n
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/130?text=hír3
+      url: hirek-2024-25/allatv_eloadas
+      btntext: TOVÁBB
+    - title: Európa-nap 2025 – a Szegedi SZC középiskolásainak szerveztek csapatvetélkedőt egyetemisták
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/130?text=hír4
+      url: hirek-2024-25/europa_nap_2025
+      btntext: Tovább a hírhez
+    - title: SZTE Prezilimpia 2025 prezentációs verseny
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/130?text=hír5
+      url: hirek-2024-25/prezilimpia_2025
+      btntext: Tovább a hírhez
+    - title: Egy nap az egyetemen – Mentoráltak látogatása az SZTE Természettudományi és Informatikai Karán
+      content: Lórum ipse azonban nem émlik nyugácsot. A szürkmény brást illetve ságos tályos szaladokságokkal való bátát abban kénykedik hárgadnia
+      coverimg:  https://placehold.co/130?text=hír5
+      url: hirek-2024-25/egynap_az_egyetemen
+      btntext: Tovább a hírhez
+
+numbers:
+  - icon: torso
+    number: 1000
+    title: ösztöndíjas
+  - icon: torsos-all
+    number: 2000
+    title: érettségi tanfolyamot elvégző
+  - icon: projection-screen
+    number: 3000
+    title: partnerközépiskola
+  - icon: torsos-all
+    number: 4000
+    title: TM felkészítőt elvégző
+  - icon: torsos-all
+    number: 5000
+    title: TM mentor
+  - icon: torsos-all
+    number: 6000
+    title: mentorált kisdiák
+  
+osztondijak:
+- title: Start alap, plusz és mester  ösztöndíjak
+  align: center
+  shortcontent:  A Szegedi Tudományegyetem START Program elsősorban a középiskolás diákok egyetemi beilleszkedését és későbbi szakmai fejlődését szolgálja. 
+  hero: yes
+  img: start_hero.jpg
+  url: osztondijak
+  btntext: TOVÁBB
+- title: Emelt szintű érettségi felkészítő tanfolyam
+  shortcontent:  'Egyetemre készülsz? Szeretnél minél jobb felvételi eredményt elérni? Megalapoznád egyetemi tanulmányaidat? Felvételi pontokat gyűjtenél?' 
+  shortcontent2:  'Kerülj egy lépéssel közelebb az egyetemhez és jelentkezz emelt szintű érettségire felkészítő tanfolyamainkra! Segítünk a továbbtanulásban!' 
+  hero: yes
+  img: emelt_szintu_erettsegi_felkeszito_hero.jpg
+  url: tanfolyamok/emelt_szintu_erettsegire_felkeszito_tanfolyamok
+  btntext: TOVÁBB
+
+

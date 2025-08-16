@@ -1,0 +1,74 @@
+TODO LIST:
+megállapítani, mi a baja a menünek.
+
+{{#ifequal type 'main1'}}
+<ul class="menu vertical nested {{#ifpage
+  'rolunk'
+  'munkatarsaink'
+  'bemutatkozunk'
+  'szegedi_tehetseggondozo_tanacs'
+  'idovonal'
+  'sajtomegjelenesek'
+  'partnerek'
+}} is-active {{/ifpage}}">
+    {{> submenu_partial}}
+</ul>
+{{/ifequal}}
+{{#ifequal type 'main2'}}
+<ul class="menu vertical nested
+    {{#ifpage
+        'kozepiskolai_partneri_program'
+        'szte_junior_akademiai_eloadasok'
+        'versenyek'
+        'osztalykirandulasok'
+        'workshopok'
+        'palyaorientacios_tanacsadas'
+        'palyazatok'
+    }}
+    is-active
+    {{/ifpage}}">
+    {{/ifequal}}
+
+    {{#ifequal type ' main3'}} <ul class=" menu vertical nested {{#ifpage
+    'emelt_szintu_erettsegire_felkeszito_tanfolyamok'
+    'erettsegi_felkeszito_tanfolyamok_tanarai'
+    'tantermi_erettsegi_felkeszito_tanfolyamok_orarendje'
+    'online_erettsegi_felkeszito_tanfolyamok_orarendje'
+    'tanfolyamdij-visszaterites'
+ }} is-active {{/ifpage}}">
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}} {{#ifequal type 'main4'}}
+    <ul class="menu vertical nested {{#ifpage
+    'szte_intezmenyi_felveteli_pontok'}}
+    is-active {{/ifpage}}">
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}} {{#ifequal type 'main5'}}
+    <ul class="menu vertical nested {{#ifpage
+    'fotoalbumok'
+    'videok'
+}} is-active {{/ifpage}}">
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}} {{#ifequal type 'main6'}}
+    <ul class="menu vertical nested {{#ifpage
+    'tajekoztato'
+    'a_programban_resztvevo_iskolak'
+    'palyazat_mentoralasra'
+    'tm_partnerek'
+    'gyakran_ismetelt_kerdesek'
+    'etikai_elvek_es_adatvedelem'
+    'kapcsolat_tm'
+    'tanitsunk_magyarorszagert_honlap'}} is-active {{/ifpage}}">
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}} {{#ifequal type 'main7'}}
+    <ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}} {{#ifequal type 'main8'}}
+    <ul class="menu vertical nested {{#ifpage 'sub3' 'sub4'}} is-active {{/ifpage}}">
+        {{> submenu_partial}}
+    </ul>
+    {{/ifequal}}
