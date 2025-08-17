@@ -225,19 +225,23 @@ menu:
   - title: Érettségi felkészítő tanfolyamok tanárai
     url: erettsegi_felkeszito_tanfolyamok_tanarai
     page: 'erettsegi_felkeszito_tanfolyamok_tanarai'
-    icon:  home
+    icon:  torsos-female-male
   - title: Tantermi érettségi felkészítő tanfolyamok órarendje
     url: tantermi_erettsegi_felkeszito_tanfolyamok_orarendje
     page: 'tantermi_erettsegi_felkeszito_tanfolyamok_orarendje'
-    icon:  home
+    icon:  calendar
   - title: Online érettségi felkészítő tanfolyamok órarendje
     url: online_erettsegi_felkeszito_tanfolyamok_orarendje
     page: 'online_erettsegi_felkeszito_tanfolyamok_orarendje'
-    icon:  home
+    icon:  calendar
   - title: Tanfolyamdíj visszatérítés
     url: tanfolyamdij_visszaterites
     page: 'tanfolyamdij_visszaterites'
-    icon:  home
+    icon:  credit-card
+  - title: Kapcsolat
+    url: kapcsolat
+    page: 'kapcsolat'
+    icon:  telephone
  
 tanarok:
   - name: Ágó Mária Katalin
