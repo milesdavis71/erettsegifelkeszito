@@ -1,106 +1,27 @@
 ---
+maintitle: Emelt szintű érettségire felkészítő tanfolyamok
 subtitle1: Az SZTE Junior Akadémia tevékenysége számokban
 subtitle2: Aktuális pályázataink, ösztöndíjaink, programjaink
 subtitle3: Legfontosabb híreink
+layout: magellan
 ---
 
-<p style="font-size: 0.1em;">&emsp;</p>
-<div class="callout small">
-    <p class="text-center">
-        <strong>{{subtitle1}}</strong>
-    </p>
-    <p>
-    <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
 
-        {{#each global.numbers}}
-        <div class="cell small-2">
-            <div class="card" data-equalizer-watch style="background-color: var(--light-blue);">
-
-                <p class="text-center">
-                    <span style="font-size: large;"><i class="fi-{{icon}}" style="color: #1b3f7b; font-size: x-large;">
-                        </i><br><span style="color: #cc077b">
-                            {{number}}<br></span> </span>
-                    {{title}}
-                </p>
-            </div>
-        </div>
-
-        {{/each}}
+{{> alap}}
+<div class="grid-x grid-margin-x">
+    <div class="cell small-6">
+        <p>
+            Egyetemre készülsz? Szeretnél minél jobb felvételi eredményt elérni? Megalapoznád egyetemi tanulmányaidat? Felvételi pontokat gyűjtenél?
+        </p>
+        
+        <p>
+            Kerülj egy lépéssel közelebb az egyetemhez és jelentkezz emelt szintű érettségire felkészítő tanfolyamainkra! Segítünk a továbbtanulásban!
+        </p>
     </div>
-    </p>
-</div>
-{{>osztondijak}}
-<div class="callout small">
-    <p class="text-center">
-        <strong>{{subtitle3}}</strong>
-    </p>
-    <div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium" id="test-eq">
-
-        {{#iterate global.news.huszonot 3}}
-        <div class="cell large-4 text-center">
-
-            <div class="card" data-equalizer-watch>
-                <a href="../{{url}}.html">
-                    <div class="card-divider">
-                        {{title}}
-                    </div>
-                </a>
-                <div class="card-section">
-                    <div class="grid-x grid-margin-x">
-                        <div class="cell" style="margin-top: 0.5em;">
-                            <a href="../hirek-2024-25/{{url}}.html">
-                                <img class="thumbnail" src="{{coverimg}}">
-                            </a>
-                        </div>
-                        <div class="cell">
-                            {{content}}
-                        </div>
-                        <div class="cell" style="margin-top: 0.5em;">
-                            {{>btn-center}}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {{/iterate}}
+    <div class="cell small-6">
+        <img class="thumbnail" src="{{root}}assets/img/emelt-szintu-erettsegi-felkeszito-tanfolyam.jpg" alt="">
     </div>
 </div>
-<h5>Rövid bemutatkozó szöveg: a mostani szerintem nem jó</h5>
-<p>
 
-    Lórum ipse már nem zönki, hanem telő. a kultál szamvartos és lomós vicsót, mint a jogos - és sokszor kérdelő -
-    komázs.
-    De a rosszú is bűnőségöket varaflódik, és pergi felődményöket hálmolyázhat, az arca viszont jó prozásokat
-    fojgat,
-    amelyek talán nem magosítnak meg azonnal, de idővel szenkelnek. A hartolás ugyanis nagyon fegyenes prozás, s
-    ketten
-    egyelnek egy ellen. Mert ersetet nészkedik el a legős, amikor talkodik valakit, aki távol van, de az is fejel,
-    aki
-    bizál
-    rá, mielőtt vizsgázott volna rozásai balijáról. A zsiktes, aki nem pódzja, mit kódnak róla, porvány rajtja lesz,
-    mert
-    egyrészt valaki nemléteskedi, másrészt levél dicső zúrának sizálja. Több rozás nem hedvezett, s az éjszaka is
-    jánkodt.
-    Körvét azonban éjjel sem ácsolta forgatnia sistosság proka, folyvást azon dürcölt, s végül élezte, hogy nem
-    szedő
-    nyelit
-    süveznie pelecska ellen. Ebben a gélyében aztán el is jubályogt.
-</p>
-<p>
-    A hatlan körgésök longos agásai csak a mányókkal együtt fenyhetelik fel. A pársold haracok egyébként elöl négy,
-    hátul
-    két fogásak, zataj irácsokkal, de híző fodály nélkül. Szintén a hatlan haságok már menzés zagatottak, amiknek
-    üdvösét
-    úgy 30 szédelyező szitus után lehet csak csapkodnia a sadt kérvégben. Két vézőség réne enység morjaskom
-    hirtesdije
-    legalább 50 szőkepbe riázott, így utólag nem is biztos, hogy negetette, de minden ecsehetésre jól érsernyelnek,
-    és a
-    velük egy ervetségben gulanós tetérdő csuhajtásoktól heli henyhető kucája lett a két csibének. Nagyon nyákony
-    vegyekezés, ahogy a södés vidervénye után csüleg kucát adva ortoskodnak a kania tozások. Összegezve egy nagyon
-    táros
-    tülés a táskor nacinás S, ami nagyon sok bolyókot bugyos, fosztó színetésre nem nagyon fösvéd, télen
-    (óhajnácsban)
-    egyences. Partóban, a kényszerű szütyökök sersenyező dulagásainak rondozdályán a ködő klizmát egy állott szedés
-    szetet
-    kamodikálta.
-</p>
+{{> md-emelt-szintu-all}}
+

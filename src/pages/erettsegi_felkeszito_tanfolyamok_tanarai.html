@@ -1,0 +1,25 @@
+---
+maintitle: Érettségi felkészítő tanfolyamok tanárai
+---
+
+{{> alap}}
+
+<div class="grid-x grid-padding-x" data-equalizer data-equalize-on="medium">
+    {{#each global.tanarok}}
+    <div class="cell small-3">
+        <div class="card" data-equalizer-watch>
+            <div class="card-divider">
+                    {{name}}
+            </div>
+            <img src="assets/img/tanarok/{{img}}">
+            <div class="card-section" style="margin-bottom: -0.5rem;">
+                <p class="text-center">
+                <span style="color: var(--primary); font-weight: 600;">{{tantargy}}</span> <br>
+                Oktatási forma:<br>{{join form " és "}}
+            </p>
+
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
